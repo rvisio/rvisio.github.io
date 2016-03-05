@@ -23,7 +23,7 @@
 
 
 	<script>
-
+		var geojson;
 
 
 		var accessToken = 'pk.eyJ1IjoicnZpc2lvIiwiYSI6ImNpbGZlcWp5dzFyNGd2cm0weHNkYXFmZmkifQ._SdrpHeG4bGCe7ugGJTc2Q';
@@ -39,7 +39,7 @@
 		$.getJSON("/census.json",function(response){
 			console.log(response);
 			
-		L.geoJson(response, {	
+		geojson = L.geoJson(response, {	
 			style: function(feature) {
 				return {
 					fillColor: getColor(feature.properties.SQ_MILES),
@@ -51,7 +51,12 @@
 				};
 			},		
 			onEachFeature: function (feature, layer) {
-				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Square Miles: " + feature.properties.SQ_MILES.toString())
+				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Square Miles: " + feature.properties.SQ_MILES.toString()),
+				layer.on({
+					mouseover:highlightFeature,
+					mouseout: resetHighlight,
+					click: zoomToFeature
+				});
 			}
 		}).addTo(map);
 		})
@@ -63,6 +68,31 @@
          x < .75     ?   '#3182bd':
                           '#08519c' ;
 		};
+
+		function highlightFeature(e){
+			var layer = e.target;
+
+			layer.setStyle({
+				weight: 5,
+				color: '#666',
+				dashArray:'',
+				fillOpacity :0.7
+			})
+
+			if (!L.Browser.ie && L.Browser.opera){
+				layer.bringToFront();
+			}
+		}
+
+		function resetHighlight(e){
+			geojson.resetStyle(e.target);
+		}
+
+		function zoomToFeature(e) {
+			map.fitBounds(e.target.getBounds())
+		}
+
+
 
 
 
