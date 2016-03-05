@@ -42,8 +42,12 @@
 		L.geoJson(response, {	
 			style: function(feature) {
 				return {
-					"color": getColor(feature.properties.SQ_MILES),
-					"opacity":1,
+					fillColor: getColor(feature.properties.SQ_MILES),
+					opacity:1,
+					weight:2,
+					color: 'white',
+					dashArray:'3',
+					fillOpacity: 0.7
 				};
 			},		
 			onEachFeature: function (feature, layer) {
@@ -53,12 +57,14 @@
 		})
 
 		function getColor(x) {
-			return x < 0     ?    '#bd0026':
-         x < .5     ?   '#f03b20':
-         x < .75     ?   '#fd8d3c':
-         x < 1     ?   '#fecc5c':
-                          '#ffffb2' ;
+			return x < .1     ?    '#eff3ff':
+         x < .25     ?   '#bdd7e7':
+         x < .5     ?   '#6baed6':
+         x < .75     ?   '#3182bd':
+                          '#08519c' ;
 		};
+
+
 
 
 
