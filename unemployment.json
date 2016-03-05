@@ -1,0 +1,1248 @@
+[
+  {
+    "index": 1,
+    "tract": 100,
+    "jobs": 9549,
+    "pop": 4284,
+    "unempl": 3.9
+  },
+  {
+    "index": 2,
+    "tract": 201,
+    "jobs": 5632,
+    "pop": 3909,
+    "unempl": 29.9
+  },
+  {
+    "index": 3,
+    "tract": 202,
+    "jobs": 18439,
+    "pop": 4464,
+    "unempl": 12.4
+  },
+  {
+    "index": 4,
+    "tract": 300,
+    "jobs": 906,
+    "pop": 5105,
+    "unempl": 3.6
+  },
+  {
+    "index": 5,
+    "tract": 400,
+    "jobs": 3191,
+    "pop": 1289,
+    "unempl": 9.3
+  },
+  {
+    "index": 6,
+    "tract": 501,
+    "jobs": 3034,
+    "pop": 3079,
+    "unempl": 3.3
+  },
+  {
+    "index": 7,
+    "tract": 502,
+    "jobs": 497,
+    "pop": 2701,
+    "unempl": 5.7
+  },
+  {
+    "index": 8,
+    "tract": 600,
+    "jobs": 1828,
+    "pop": 3961,
+    "unempl": 7
+  },
+  {
+    "index": 9,
+    "tract": 701,
+    "jobs": 456,
+    "pop": 4516,
+    "unempl": 7.6
+  },
+  {
+    "index": 10,
+    "tract": 702,
+    "jobs": 69,
+    "pop": 3160,
+    "unempl": 3.2
+  },
+  {
+    "index": 11,
+    "tract": 801,
+    "jobs": 1493,
+    "pop": 5749,
+    "unempl": 12.3
+  },
+  {
+    "index": 12,
+    "tract": 802,
+    "jobs": 1063,
+    "pop": 2201,
+    "unempl": 6.6
+  },
+  {
+    "index": 13,
+    "tract": 901,
+    "jobs": 4995,
+    "pop": 6792,
+    "unempl": 17.7
+  },
+  {
+    "index": 14,
+    "tract": 902,
+    "jobs": 831,
+    "pop": 1626,
+    "unempl": 4.2
+  },
+  {
+    "index": 15,
+    "tract": 1001,
+    "jobs": 61255,
+    "pop": 6341,
+    "unempl": 9.7
+  },
+  {
+    "index": 16,
+    "tract": 1002,
+    "jobs": 5027,
+    "pop": 3116,
+    "unempl": 6.1
+  },
+  {
+    "index": 17,
+    "tract": 1100,
+    "jobs": 4760,
+    "pop": 3647,
+    "unempl": 4.4
+  },
+  {
+    "index": 18,
+    "tract": 1200,
+    "jobs": 1532,
+    "pop": 4402,
+    "unempl": 8
+  },
+  {
+    "index": 19,
+    "tract": 1301,
+    "jobs": 290,
+    "pop": 3693,
+    "unempl": 3.1
+  },
+  {
+    "index": 20,
+    "tract": 1302,
+    "jobs": 2905,
+    "pop": 7210,
+    "unempl": 5.3
+  },
+  {
+    "index": 21,
+    "tract": 1401,
+    "jobs": 447,
+    "pop": 2697,
+    "unempl": 5
+  },
+  {
+    "index": 22,
+    "tract": 1402,
+    "jobs": 917,
+    "pop": 2385,
+    "unempl": 4.2
+  },
+  {
+    "index": 23,
+    "tract": 1500,
+    "jobs": 696,
+    "pop": 4677,
+    "unempl": 5
+  },
+  {
+    "index": 24,
+    "tract": 1600,
+    "jobs": 2253,
+    "pop": 3480,
+    "unempl": 4.7
+  },
+  {
+    "index": 25,
+    "tract": 1702,
+    "jobs": 1663,
+    "pop": 2569,
+    "unempl": 6.3
+  },
+  {
+    "index": 26,
+    "tract": 1803,
+    "jobs": 22,
+    "pop": 2888,
+    "unempl": 5.6
+  },
+  {
+    "index": 27,
+    "tract": 1804,
+    "jobs": 237,
+    "pop": 4393,
+    "unempl": 8.3
+  },
+  {
+    "index": 28,
+    "tract": 1901,
+    "jobs": 520,
+    "pop": 3313,
+    "unempl": 3.9
+  },
+  {
+    "index": 29,
+    "tract": 1902,
+    "jobs": 535,
+    "pop": 1830,
+    "unempl": 8.6
+  },
+  {
+    "index": 30,
+    "tract": 2001,
+    "jobs": 524,
+    "pop": 2066,
+    "unempl": 11.1
+  },
+  {
+    "index": 31,
+    "tract": 2002,
+    "jobs": 962,
+    "pop": 3077,
+    "unempl": 3.7
+  },
+  {
+    "index": 32,
+    "tract": 2101,
+    "jobs": 917,
+    "pop": 4533,
+    "unempl": 8.6
+  },
+  {
+    "index": 33,
+    "tract": 2102,
+    "jobs": 736,
+    "pop": 3998,
+    "unempl": 4.8
+  },
+  {
+    "index": 34,
+    "tract": 2201,
+    "jobs": 108,
+    "pop": 3058,
+    "unempl": 4.3
+  },
+  {
+    "index": 35,
+    "tract": 2202,
+    "jobs": 136,
+    "pop": 2779,
+    "unempl": 7.4
+  },
+  {
+    "index": 36,
+    "tract": 2301,
+    "jobs": 83,
+    "pop": 2454,
+    "unempl": 6.8
+  },
+  {
+    "index": 37,
+    "tract": 2302,
+    "jobs": 19221,
+    "pop": 1708,
+    "unempl": 4.7
+  },
+  {
+    "index": 38,
+    "tract": 2400,
+    "jobs": 653,
+    "pop": 3436,
+    "unempl": 8.5
+  },
+  {
+    "index": 39,
+    "tract": 2501,
+    "jobs": 1991,
+    "pop": 2139,
+    "unempl": 6.6
+  },
+  {
+    "index": 40,
+    "tract": 2502,
+    "jobs": 682,
+    "pop": 4539,
+    "unempl": 10.1
+  },
+  {
+    "index": 41,
+    "tract": 2600,
+    "jobs": 159,
+    "pop": 1987,
+    "unempl": 3.3
+  },
+  {
+    "index": 42,
+    "tract": 2701,
+    "jobs": 507,
+    "pop": 4262,
+    "unempl": 8.1
+  },
+  {
+    "index": 43,
+    "tract": 2702,
+    "jobs": 771,
+    "pop": 5102,
+    "unempl": 10.4
+  },
+  {
+    "index": 44,
+    "tract": 2801,
+    "jobs": 152,
+    "pop": 3484,
+    "unempl": 17.2
+  },
+  {
+    "index": 45,
+    "tract": 2802,
+    "jobs": 1709,
+    "pop": 4065,
+    "unempl": 11.8
+  },
+  {
+    "index": 46,
+    "tract": 2900,
+    "jobs": 1145,
+    "pop": 3988,
+    "unempl": 17
+  },
+  {
+    "index": 47,
+    "tract": 3000,
+    "jobs": 316,
+    "pop": 3200,
+    "unempl": 21.6
+  },
+  {
+    "index": 48,
+    "tract": 3100,
+    "jobs": 1269,
+    "pop": 2738,
+    "unempl": 9.5
+  },
+  {
+    "index": 49,
+    "tract": 3200,
+    "jobs": 204,
+    "pop": 4047,
+    "unempl": 21.8
+  },
+  {
+    "index": 50,
+    "tract": 3301,
+    "jobs": 175,
+    "pop": 2955,
+    "unempl": 12.4
+  },
+  {
+    "index": 51,
+    "tract": 3302,
+    "jobs": 269,
+    "pop": 1910,
+    "unempl": 4.9
+  },
+  {
+    "index": 52,
+    "tract": 3400,
+    "jobs": 2670,
+    "pop": 4697,
+    "unempl": 17.2
+  },
+  {
+    "index": 53,
+    "tract": 3500,
+    "jobs": 508,
+    "pop": 4042,
+    "unempl": 37
+  },
+  {
+    "index": 54,
+    "tract": 3600,
+    "jobs": 431,
+    "pop": 4071,
+    "unempl": 11.7
+  },
+  {
+    "index": 55,
+    "tract": 3700,
+    "jobs": 296,
+    "pop": 4740,
+    "unempl": 15.4
+  },
+  {
+    "index": 56,
+    "tract": 3800,
+    "jobs": 2398,
+    "pop": 4701,
+    "unempl": 6.8
+  },
+  {
+    "index": 57,
+    "tract": 3900,
+    "jobs": 437,
+    "pop": 4397,
+    "unempl": 14.3
+  },
+  {
+    "index": 58,
+    "tract": 4001,
+    "jobs": 429,
+    "pop": 3170,
+    "unempl": 4.5
+  },
+  {
+    "index": 59,
+    "tract": 4002,
+    "jobs": 2459,
+    "pop": 2564,
+    "unempl": 3.6
+  },
+  {
+    "index": 60,
+    "tract": 4100,
+    "jobs": 664,
+    "pop": 2478,
+    "unempl": 4.7
+  },
+  {
+    "index": 61,
+    "tract": 4201,
+    "jobs": 1684,
+    "pop": 3556,
+    "unempl": 5.8
+  },
+  {
+    "index": 62,
+    "tract": 4202,
+    "jobs": 2491,
+    "pop": 2695,
+    "unempl": 7.8
+  },
+  {
+    "index": 63,
+    "tract": 4300,
+    "jobs": 1275,
+    "pop": 2896,
+    "unempl": 6.7
+  },
+  {
+    "index": 64,
+    "tract": 4400,
+    "jobs": 8054,
+    "pop": 5124,
+    "unempl": 12.8
+  },
+  {
+    "index": 65,
+    "tract": 4600,
+    "jobs": 653,
+    "pop": 2371,
+    "unempl": 7.1
+  },
+  {
+    "index": 66,
+    "tract": 4701,
+    "jobs": 768,
+    "pop": 2714,
+    "unempl": 8.9
+  },
+  {
+    "index": 67,
+    "tract": 4702,
+    "jobs": 6571,
+    "pop": 1976,
+    "unempl": 8.9
+  },
+  {
+    "index": 68,
+    "tract": 4801,
+    "jobs": 1483,
+    "pop": 1999,
+    "unempl": 5.7
+  },
+  {
+    "index": 69,
+    "tract": 4802,
+    "jobs": 481,
+    "pop": 2766,
+    "unempl": 5.5
+  },
+  {
+    "index": 70,
+    "tract": 4901,
+    "jobs": 1037,
+    "pop": 1926,
+    "unempl": 5.3
+  },
+  {
+    "index": 71,
+    "tract": 4902,
+    "jobs": 1409,
+    "pop": 2472,
+    "unempl": 4.9
+  },
+  {
+    "index": 72,
+    "tract": 5001,
+    "jobs": 568,
+    "pop": 1889,
+    "unempl": 11.4
+  },
+  {
+    "index": 73,
+    "tract": 5002,
+    "jobs": 1498,
+    "pop": 5391,
+    "unempl": 11.9
+  },
+  {
+    "index": 74,
+    "tract": 5201,
+    "jobs": 3422,
+    "pop": 5657,
+    "unempl": 5.4
+  },
+  {
+    "index": 75,
+    "tract": 5301,
+    "jobs": 4798,
+    "pop": 4940,
+    "unempl": 4.9
+  },
+  {
+    "index": 76,
+    "tract": 5500,
+    "jobs": 24141,
+    "pop": 6030,
+    "unempl": 4.9
+  },
+  {
+    "index": 77,
+    "tract": 5600,
+    "jobs": 3897,
+    "pop": 6050,
+    "unempl": 8.7
+  },
+  {
+    "index": 78,
+    "tract": 5800,
+    "jobs": 63726,
+    "pop": 2491,
+    "unempl": 3.6
+  },
+  {
+    "index": 79,
+    "tract": 5900,
+    "jobs": 17517,
+    "pop": 3104,
+    "unempl": 5.9
+  },
+  {
+    "index": 80,
+    "tract": 6202,
+    "jobs": 42997,
+    "pop": 0,
+    "unempl": "NA"
+  },
+  {
+    "index": 81,
+    "tract": 6400,
+    "jobs": 607,
+    "pop": 1622,
+    "unempl": 11.2
+  },
+  {
+    "index": 82,
+    "tract": 6500,
+    "jobs": 13370,
+    "pop": 2215,
+    "unempl": 5.9
+  },
+  {
+    "index": 83,
+    "tract": 6600,
+    "jobs": 1365,
+    "pop": 1656,
+    "unempl": 3.7
+  },
+  {
+    "index": 84,
+    "tract": 6700,
+    "jobs": 215,
+    "pop": 3476,
+    "unempl": 5.1
+  },
+  {
+    "index": 85,
+    "tract": 6801,
+    "jobs": 11,
+    "pop": 1755,
+    "unempl": 8.7
+  },
+  {
+    "index": 86,
+    "tract": 6802,
+    "jobs": 182,
+    "pop": 1811,
+    "unempl": 4.9
+  },
+  {
+    "index": 87,
+    "tract": 6804,
+    "jobs": 723,
+    "pop": 2958,
+    "unempl": 0.7
+  },
+  {
+    "index": 88,
+    "tract": 6900,
+    "jobs": 1069,
+    "pop": 2079,
+    "unempl": 4.3
+  },
+  {
+    "index": 89,
+    "tract": 7000,
+    "jobs": 3234,
+    "pop": 2326,
+    "unempl": 3.6
+  },
+  {
+    "index": 90,
+    "tract": 7100,
+    "jobs": 2799,
+    "pop": 2584,
+    "unempl": 6.8
+  },
+  {
+    "index": 91,
+    "tract": 7200,
+    "jobs": 5536,
+    "pop": 3305,
+    "unempl": 7.5
+  },
+  {
+    "index": 92,
+    "tract": 7301,
+    "jobs": 281,
+    "pop": 2184,
+    "unempl": 6
+  },
+  {
+    "index": 93,
+    "tract": 7304,
+    "jobs": 1394,
+    "pop": 2905,
+    "unempl": 6.2
+  },
+  {
+    "index": 94,
+    "tract": 7401,
+    "jobs": 511,
+    "pop": 1720,
+    "unempl": 5.8
+  },
+  {
+    "index": 95,
+    "tract": 7403,
+    "jobs": 131,
+    "pop": 2180,
+    "unempl": 6.9
+  },
+  {
+    "index": 96,
+    "tract": 7404,
+    "jobs": 175,
+    "pop": 2320,
+    "unempl": 5.9
+  },
+  {
+    "index": 97,
+    "tract": 7406,
+    "jobs": 37,
+    "pop": 2017,
+    "unempl": 8.2
+  },
+  {
+    "index": 98,
+    "tract": 7407,
+    "jobs": 38,
+    "pop": 1917,
+    "unempl": 10.6
+  },
+  {
+    "index": 99,
+    "tract": 7408,
+    "jobs": 21,
+    "pop": 2206,
+    "unempl": 4.9
+  },
+  {
+    "index": 100,
+    "tract": 7409,
+    "jobs": 4,
+    "pop": 2591,
+    "unempl": 2.6
+  },
+  {
+    "index": 101,
+    "tract": 7502,
+    "jobs": 855,
+    "pop": 3861,
+    "unempl": 3.1
+  },
+  {
+    "index": 102,
+    "tract": 7503,
+    "jobs": 298,
+    "pop": 1722,
+    "unempl": 4.9
+  },
+  {
+    "index": 103,
+    "tract": 7504,
+    "jobs": 39,
+    "pop": 1665,
+    "unempl": 9
+  },
+  {
+    "index": 104,
+    "tract": 7601,
+    "jobs": 474,
+    "pop": 3489,
+    "unempl": 7.5
+  },
+  {
+    "index": 105,
+    "tract": 7603,
+    "jobs": 373,
+    "pop": 2944,
+    "unempl": 11.3
+  },
+  {
+    "index": 106,
+    "tract": 7604,
+    "jobs": 137,
+    "pop": 2977,
+    "unempl": 6
+  },
+  {
+    "index": 107,
+    "tract": 7605,
+    "jobs": 51,
+    "pop": 3194,
+    "unempl": 6.6
+  },
+  {
+    "index": 108,
+    "tract": 7703,
+    "jobs": 238,
+    "pop": 3821,
+    "unempl": 7.4
+  },
+  {
+    "index": 109,
+    "tract": 7707,
+    "jobs": 51,
+    "pop": 3267,
+    "unempl": 7.2
+  },
+  {
+    "index": 110,
+    "tract": 7708,
+    "jobs": 105,
+    "pop": 2094,
+    "unempl": 11.5
+  },
+  {
+    "index": 111,
+    "tract": 7709,
+    "jobs": 211,
+    "pop": 1465,
+    "unempl": 10.2
+  },
+  {
+    "index": 112,
+    "tract": 7803,
+    "jobs": 721,
+    "pop": 2434,
+    "unempl": 6.5
+  },
+  {
+    "index": 113,
+    "tract": 7804,
+    "jobs": 646,
+    "pop": 2438,
+    "unempl": 11.2
+  },
+  {
+    "index": 114,
+    "tract": 7806,
+    "jobs": 174,
+    "pop": 1716,
+    "unempl": 4.5
+  },
+  {
+    "index": 115,
+    "tract": 7807,
+    "jobs": 65,
+    "pop": 1681,
+    "unempl": 5.8
+  },
+  {
+    "index": 116,
+    "tract": 7808,
+    "jobs": 247,
+    "pop": 3088,
+    "unempl": 10
+  },
+  {
+    "index": 117,
+    "tract": 7809,
+    "jobs": 222,
+    "pop": 2137,
+    "unempl": 8.7
+  },
+  {
+    "index": 118,
+    "tract": 7901,
+    "jobs": 336,
+    "pop": 3420,
+    "unempl": 7.2
+  },
+  {
+    "index": 119,
+    "tract": 7903,
+    "jobs": 902,
+    "pop": 1387,
+    "unempl": 9
+  },
+  {
+    "index": 120,
+    "tract": 8001,
+    "jobs": 387,
+    "pop": 2420,
+    "unempl": 2.2
+  },
+  {
+    "index": 121,
+    "tract": 8002,
+    "jobs": 712,
+    "pop": 3146,
+    "unempl": 8.5
+  },
+  {
+    "index": 122,
+    "tract": 8100,
+    "jobs": 951,
+    "pop": 2828,
+    "unempl": 6.3
+  },
+  {
+    "index": 123,
+    "tract": 8200,
+    "jobs": 1724,
+    "pop": 2713,
+    "unempl": 3.8
+  },
+  {
+    "index": 124,
+    "tract": 8301,
+    "jobs": 1181,
+    "pop": 2404,
+    "unempl": 11
+  },
+  {
+    "index": 125,
+    "tract": 8302,
+    "jobs": 1380,
+    "pop": 2082,
+    "unempl": 5
+  },
+  {
+    "index": 126,
+    "tract": 8402,
+    "jobs": 556,
+    "pop": 2004,
+    "unempl": 5.8
+  },
+  {
+    "index": 127,
+    "tract": 8410,
+    "jobs": 354,
+    "pop": 1211,
+    "unempl": 10.1
+  },
+  {
+    "index": 128,
+    "tract": 8701,
+    "jobs": 1669,
+    "pop": 2100,
+    "unempl": 8.5
+  },
+  {
+    "index": 129,
+    "tract": 8702,
+    "jobs": 666,
+    "pop": 1800,
+    "unempl": 6.4
+  },
+  {
+    "index": 130,
+    "tract": 8802,
+    "jobs": 157,
+    "pop": 3761,
+    "unempl": 9.6
+  },
+  {
+    "index": 131,
+    "tract": 8803,
+    "jobs": 2868,
+    "pop": 1765,
+    "unempl": 19.6
+  },
+  {
+    "index": 132,
+    "tract": 8804,
+    "jobs": 589,
+    "pop": 2334,
+    "unempl": 8.1
+  },
+  {
+    "index": 133,
+    "tract": 8903,
+    "jobs": 113,
+    "pop": 2256,
+    "unempl": 8.7
+  },
+  {
+    "index": 134,
+    "tract": 8904,
+    "jobs": 366,
+    "pop": 2788,
+    "unempl": 6.2
+  },
+  {
+    "index": 135,
+    "tract": 9000,
+    "jobs": 552,
+    "pop": 2489,
+    "unempl": 8.8
+  },
+  {
+    "index": 136,
+    "tract": 9102,
+    "jobs": 2839,
+    "pop": 3667,
+    "unempl": 7
+  },
+  {
+    "index": 137,
+    "tract": 9201,
+    "jobs": 1900,
+    "pop": 1525,
+    "unempl": 14.3
+  },
+  {
+    "index": 138,
+    "tract": 9203,
+    "jobs": 39,
+    "pop": 2191,
+    "unempl": 8.1
+  },
+  {
+    "index": 139,
+    "tract": 9204,
+    "jobs": 819,
+    "pop": 2260,
+    "unempl": 3.7
+  },
+  {
+    "index": 140,
+    "tract": 9301,
+    "jobs": 805,
+    "pop": 2835,
+    "unempl": 6.6
+  },
+  {
+    "index": 141,
+    "tract": 9302,
+    "jobs": 783,
+    "pop": 919,
+    "unempl": 3.4
+  },
+  {
+    "index": 142,
+    "tract": 9400,
+    "jobs": 576,
+    "pop": 3710,
+    "unempl": 7.3
+  },
+  {
+    "index": 143,
+    "tract": 9501,
+    "jobs": 4259,
+    "pop": 5729,
+    "unempl": 7.8
+  },
+  {
+    "index": 144,
+    "tract": 9503,
+    "jobs": 655,
+    "pop": 2778,
+    "unempl": 6.4
+  },
+  {
+    "index": 145,
+    "tract": 9504,
+    "jobs": 1543,
+    "pop": 2575,
+    "unempl": 5
+  },
+  {
+    "index": 146,
+    "tract": 9505,
+    "jobs": 686,
+    "pop": 2240,
+    "unempl": 10.4
+  },
+  {
+    "index": 147,
+    "tract": 9507,
+    "jobs": 17,
+    "pop": 1301,
+    "unempl": 9.7
+  },
+  {
+    "index": 148,
+    "tract": 9508,
+    "jobs": 674,
+    "pop": 2925,
+    "unempl": 10.4
+  },
+  {
+    "index": 149,
+    "tract": 9509,
+    "jobs": 131,
+    "pop": 2837,
+    "unempl": 9.8
+  },
+  {
+    "index": 150,
+    "tract": 9601,
+    "jobs": 279,
+    "pop": 1701,
+    "unempl": 7.2
+  },
+  {
+    "index": 151,
+    "tract": 9602,
+    "jobs": 943,
+    "pop": 2178,
+    "unempl": 14.7
+  },
+  {
+    "index": 152,
+    "tract": 9603,
+    "jobs": 724,
+    "pop": 2279,
+    "unempl": 9.3
+  },
+  {
+    "index": 153,
+    "tract": 9604,
+    "jobs": 152,
+    "pop": 1784,
+    "unempl": 2.8
+  },
+  {
+    "index": 154,
+    "tract": 9700,
+    "jobs": 84,
+    "pop": 2258,
+    "unempl": 3.6
+  },
+  {
+    "index": 155,
+    "tract": 9801,
+    "jobs": 104,
+    "pop": 1264,
+    "unempl": 14.2
+  },
+  {
+    "index": 156,
+    "tract": 9803,
+    "jobs": 103,
+    "pop": 832,
+    "unempl": 5.8
+  },
+  {
+    "index": 157,
+    "tract": 9804,
+    "jobs": 61,
+    "pop": 2104,
+    "unempl": 8.2
+  },
+  {
+    "index": 158,
+    "tract": 9807,
+    "jobs": 480,
+    "pop": 1872,
+    "unempl": 2.1
+  },
+  {
+    "index": 159,
+    "tract": 9810,
+    "jobs": 47,
+    "pop": 2486,
+    "unempl": 4.8
+  },
+  {
+    "index": 160,
+    "tract": 9811,
+    "jobs": 597,
+    "pop": 1553,
+    "unempl": 0.7
+  },
+  {
+    "index": 161,
+    "tract": 9901,
+    "jobs": 315,
+    "pop": 3217,
+    "unempl": 2.5
+  },
+  {
+    "index": 162,
+    "tract": 9902,
+    "jobs": 110,
+    "pop": 2064,
+    "unempl": 9
+  },
+  {
+    "index": 163,
+    "tract": 9903,
+    "jobs": 15,
+    "pop": 2378,
+    "unempl": 8.8
+  },
+  {
+    "index": 164,
+    "tract": 9904,
+    "jobs": 8,
+    "pop": 1276,
+    "unempl": 7.4
+  },
+  {
+    "index": 165,
+    "tract": 9905,
+    "jobs": 32,
+    "pop": 1291,
+    "unempl": 6.4
+  },
+  {
+    "index": 166,
+    "tract": 9906,
+    "jobs": 60,
+    "pop": 1889,
+    "unempl": 6.6
+  },
+  {
+    "index": 167,
+    "tract": 9907,
+    "jobs": 503,
+    "pop": 1059,
+    "unempl": 12.2
+  },
+  {
+    "index": 168,
+    "tract": 10100,
+    "jobs": 41542,
+    "pop": 1887,
+    "unempl": 14
+  },
+  {
+    "index": 169,
+    "tract": 10200,
+    "jobs": 24425,
+    "pop": 2397,
+    "unempl": 5.5
+  },
+  {
+    "index": 170,
+    "tract": 10300,
+    "jobs": 611,
+    "pop": 2364,
+    "unempl": 4.1
+  },
+  {
+    "index": 171,
+    "tract": 10400,
+    "jobs": 4408,
+    "pop": 2828,
+    "unempl": 8.1
+  },
+  {
+    "index": 172,
+    "tract": 10500,
+    "jobs": 1853,
+    "pop": 3518,
+    "unempl": 4.7
+  },
+  {
+    "index": 173,
+    "tract": 10600,
+    "jobs": 21457,
+    "pop": 3568,
+    "unempl": 7.4
+  },
+  {
+    "index": 174,
+    "tract": 10700,
+    "jobs": 88642,
+    "pop": 4243,
+    "unempl": 5.9
+  },
+  {
+    "index": 175,
+    "tract": 10800,
+    "jobs": 19822,
+    "pop": 1808,
+    "unempl": 3
+  },
+  {
+    "index": 176,
+    "tract": 10900,
+    "jobs": 2215,
+    "pop": 6615,
+    "unempl": 26.6
+  },
+  {
+    "index": 177,
+    "tract": 11000,
+    "jobs": 223,
+    "pop": 2955,
+    "unempl": 4
+  },
+  {
+    "index": 178,
+    "tract": 11100,
+    "jobs": 6929,
+    "pop": 3269,
+    "unempl": 3.9
+  }
+]

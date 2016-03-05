@@ -37,12 +37,28 @@
 		    .setView([38.9071923, -77.0368707], 12);
 
 		$.getJSON("/census.json",function(response){
-			console.log(response);
-			
-		geojson = L.geoJson(response, {	
+			$.getJSON('/unemployment.json', function(unempResponse){
+					unempResponse.forEach(function(d){
+						if (d.tract.toString().length == 3) {
+							d.tr = "000" + d.tract;
+						}else if (d.tract.toString().length==4) {
+							d.tr = "00" + d.tract;
+						}else if (d.tract.toString().length==5) {
+							d.tr = "0" + d.tract;
+						}
+						var dd = response.features.filter(function(f){
+							return f.properties.TRACT === d.tr
+						})[0].properties.unempl = d.unempl
+
+
+
+
+					})
+				// console.log(unempResponse);
+geojson = L.geoJson(response, {	
 			style: function(feature) {
 				return {
-					fillColor: getColor(feature.properties.SQ_MILES),
+					fillColor: getColor(feature.properties.unempl),
 					opacity:1,
 					weight:2,
 					color: 'white',
@@ -51,7 +67,9 @@
 				};
 			},		
 			onEachFeature: function (feature, layer) {
-				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Square Miles: " + feature.properties.SQ_MILES.toString()),
+				
+				console.log(unempResponse);
+				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Unemployment Rate: " + feature.properties.unempl +'%'),
 				layer.on({
 					mouseover:highlightFeature,
 					mouseout: resetHighlight,
@@ -59,14 +77,21 @@
 				});
 			}
 		}).addTo(map);
+			console.log(response);
+
 		})
 
+				})
+
+			
+		
+
 		function getColor(x) {
-			return x < .1     ?    '#eff3ff':
-         x < .25     ?   '#bdd7e7':
-         x < .5     ?   '#6baed6':
-         x < .75     ?   '#3182bd':
-                          '#08519c' ;
+			return x < 3     ?    '#eff3ff':
+         x <   6   ?   '#bdd7e7':
+         x < 14   ?   '#6baed6':
+         x < 17     ?   '#B0171F':
+                          '#B0171F' ;
 		};
 
 		function highlightFeature(e){
@@ -92,6 +117,17 @@
 			map.fitBounds(e.target.getBounds())
 		}
 
+		var info = L.control();
+
+		info.onAdd = function(map){
+			this._div = L.DomUtil.create('div','info');
+			this.update();
+			return this._div;
+		};
+
+		info.update = function(props) {
+			this._div.innerHTML
+		}
 
 
 
