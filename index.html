@@ -89,7 +89,7 @@ geojson = L.geoJson(response, {
 			},		
 			onEachFeature: function (feature, layer) {
 				
-				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Unemployment Rate: " + feature.properties.unempl +'%'),
+				layer.bindPopup("Tract: " + feature.properties.TRACT +"<br/>Unemployment Rate: " + feature.properties.unempl +'% <br />' + feature.properties.newStatus),
 				layer.on({
 					mouseover:highlightFeature,
 					mouseout: resetHighlight,
@@ -167,9 +167,9 @@ geojson = L.geoJson(response, {
 		};
 
 		info.update = function(props) {
-			
+
 			this._div.innerHTML = '<h4?DC Census Tracts</h4>' + (props ?
-				'<b>Census Tract: ' + props.TRACT + '</b><br />' + props.unempl.toString() + '% unemployed<br />'  
+				'<b>Census Tract: ' + props.TRACT + '</b><br />' + props.unempl.toString() + '% unemployed<br />' 
 				: 'Hover over a census tract');
 		};
 
