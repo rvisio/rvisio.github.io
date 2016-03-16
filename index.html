@@ -50,7 +50,7 @@
 				});
 			var map = L.map('map')
 		    .addLayer(mapboxTiles)
-		    .setView([38.9047, -77.0164], 11);
+		    .setView([38.9047, -77.0164], 11.75);
 
 		$.getJSON("/census.json",function(response){
 			$.getJSON('/unemployment.json', function(unempResponse){
