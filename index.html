@@ -44,8 +44,12 @@
 
 		var accessToken = 'pk.eyJ1IjoicnZpc2lvIiwiYSI6ImNpbGZlcWp5dzFyNGd2cm0weHNkYXFmZmkifQ._SdrpHeG4bGCe7ugGJTc2Q';
 			// Replace 'mapbox.streets' with your map id.
-			var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=' +accessToken, {
-		    attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			var mapboxTiles = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+			attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+			subdomains: 'abcd',
+			minZoom: 1,
+			maxZoom: 16,
+			ext: 'png'
 
 				});
 			var map = L.map('map')
@@ -80,11 +84,12 @@ geojson = L.geoJson(response, {
 			style: function(feature) {
 				return {
 					fillColor: getColor(feature.properties.newStatus),
-					opacity: getOpacity(feature.properties.newStatus),
+					fillColor:'white',
+					opacity: .1,
 					weight:2,
-					color: 'white',
+					color: 'black',
 					dashArray:'3',
-					fillOpacity: 0.7
+					fillOpacity: 1
 				};
 			},		
 			onEachFeature: function (feature, layer) {
