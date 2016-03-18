@@ -85,9 +85,9 @@ geojson = L.geoJson(response, {
 					//fillColor:'white',
 					opacity: .1,
 					weight:2,
-					color: 'white',
-					dashArray:'3',
-					fillOpacity: .7
+					color: 'black',
+					dashArray:'2',
+					fillOpacity: 1
 				};
 			},		
 			onEachFeature: function (feature, layer) {
@@ -140,9 +140,9 @@ geojson = L.geoJson(response, {
 
 			layer.setStyle({
 				weight: 5,
-				color: '#666',
+				color: '#ffffff',
 				dashArray:'',
-				fillOpacity :0.7
+				fillOpacity :0.25
 			})
 
 			if (!L.Browser.ie && L.Browser.opera){
